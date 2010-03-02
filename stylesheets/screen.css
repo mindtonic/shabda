@@ -1,0 +1,269 @@
+/* 
+divergentmindmedia.com
+(c)2008 Divergent Mind Media, LLC
+
+authors:
+
+jay sanders (jay@divergentmindmedia.com)
+brad burleson (brad@divergentmindmedia.com)
+
+Colors:
+
+	Black:
+	White:	
+
+
+*/
+
+
+/* TAGS ============================= */
+
+body {
+	background: white;
+	color: black;
+	font-size: 14px;
+	font-family: geneva, arial, sans-serif;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+p {
+	line-height: 22px;
+	margin-bottom: 14px;
+}
+
+li {
+	line-height: 22px;
+}
+
+input {
+	padding: 3px;
+	border: 0;
+	border-bottom: groove 1px black;
+}
+
+select {
+	padding: 3px;
+	border: 0;
+	border-bottom: groove 1px black;
+}
+
+textarea {
+	padding: 3px;
+	border: groove 1px black;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+strong {
+	font-size: 18px;
+}
+
+img {
+	border: 0;
+}
+
+/* FORMS ============================ */
+
+.form {
+	margin-bottom: 20px;
+}
+
+.toggleBox {
+	width: 400px;
+	border: solid 1px black;
+	margin: auto;
+	padding: 10px;
+	padding-bottom: 30px;
+}
+
+.toggleButton {
+	background: black;
+	color: white;
+	margin: auto;
+}
+
+.submit {
+	border: 0;
+}
+.errors {
+	color: #BF2323;
+	font-size: 12px;
+}
+
+/* MASTER =========================== */
+
+#master {
+	width: 1000px;
+	margin: auto;
+}
+
+/* HEADER =========================== */
+
+#header {
+	width: 1000px;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	border: groove 2px #efefef;
+	border-bottom: 0;	
+}
+#login {
+	float: right;
+	text-align: right;
+	font-size: 9px;
+}
+#login p {
+	margin: 0;
+	padding: 0;
+}
+#login input {
+	font-size: 9px;
+	background: white;
+	border: 0;
+	border-bottom: solid 1px #dfdfdf;
+}
+#login .submit {border: 0;}
+
+#menu {text-align: center;}
+#menu a {padding: 10px;}
+#menu a.active {font-weight: bold;}
+
+#logo {
+	width: 400px;
+	margin: auto;
+	text-align: center;
+}
+
+/* CONTENT =========================== */
+
+#content {
+	width: 1000px;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	border: groove 2px #efefef;
+}
+
+#content #contentBox {
+	text-align: left;
+}
+
+
+/* HOMEPAGE */
+
+#homePageTable td {
+	width: 50%;
+	text-align: center;
+	vertical-align: top;
+}
+.homePageNewsItem {
+	border: solid 1px #000;
+	margin: 20px;
+	padding: 3px 10px 10px 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+#homePageTable #homePageTourDates .homePageTour {
+	padding: 20px;
+}
+
+/* FOOTER =========================== */
+
+#footer {
+	letter-spacing: 1.5px;
+	font-size: 11px;
+	color: #4f4f4f;
+	width: 1000px;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	border: groove 2px #efefef;
+	border-top: 0;	
+}
+#footer a {
+	color: #4f4f4f;
+}
+
+/* ADMIN ============================ */
+
+#admin {
+	margin-top: 10px;
+}
+#admin table {
+	margin: auto;
+	font-size: 12px;
+}
+#admin th {
+	padding: 10px;
+	border-bottom: solid 1px #dfdfdf;
+}
+#admin td {
+	padding: 10px;
+	border-bottom: solid 1px #dfdfdf;
+}
+#admin ul {
+	list-style-type: none;
+	padding: 20px;
+}
+#admin li {
+
+}
+#admin .form {
+	margin: auto;
+	margin-top: 40px;
+}
+#admin .form h3 {
+	margin-bottom: 10px;
+}
+#admin #tree {
+	width: 400px;
+	padding: 10px;
+	border: solid 1px #dfdfdf;
+	margin: auto;
+}
+#admin #tree ul {
+	text-align: left;
+}
+#admin #tree li {
+	padding-bottom: 20px;
+}
+
+
+/* SYSTEM =========================== */
+/* please keep this style in place for troubleshooting ~jay */
+
+#diagnostics {
+	background: white;
+	color: black;
+	padding:10px;
+	margin:10px;
+}
